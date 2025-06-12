@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="logo.jpeg" alt="logo" height="50" style="float: left;">
+        <nav>
+        <ul class="navigation">
+            <li>
+                <a href="homepage.html">Home |</a>
+            </li>
+            <li>
+                <a href="courses.html">Course|</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact Us|</a>
+            </li>
+            <li>
+                <a href="addCourse.html">Add Course|</a>
+            </li>
+            <li>
+                <a href="loginPage.html">Logout</a>
+            </li> 
+        </ul>
+        </nav>
+    </div>
+    <div class="column">
+           <h3> Add Course</h3>  
+           <form>
+            <p>Course Name: 
+            </p>
+            <p>
+            <input type="text" placeholder="Certified BlockChain Associate"> 
+            </p>
+            <p>Course Id:</p>
+            <p>
+                <input type="text" placeholder="Eg.1" required>
+            </p>
+            <p>Course type</p>
+            <p>
+                <select name=""Course type">
+                    <option value="Self-paced" selected> 
+                    Self-paced
+                    </option>
+                    <option value="course2">Course2
+                    </option>
+                    <option value="course3">Course3
+                    </option>
+                    </select>
+            </p>
+            <p> Description:</p>       
+            <p>
+                <textarea rows="5" cols="20" 
+                    placeholder ="small description on the course" required >
+                    </textarea>
+            </p>  
+            <p>
+                Price:
+            </p>
+            <p>
+                <select name="Price">
+                    <option value="value1">5000</option>
+                    <option value="value2">2000</option>
+                    <option value="value3">3000</option>
+                    </select>
+            </p>
+            <p>
+                <input type="submit" name="" id="" value="Add Course">
+            </p>
+           </form>
+    </div> 
+</body>
+</html>

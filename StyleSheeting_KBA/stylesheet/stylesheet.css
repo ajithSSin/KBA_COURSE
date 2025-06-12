@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(26, 161, 44);
+}
+.navigation{
+            list-style-type: none;
+            display: flex;
+            justify-content: end;
+        }
+.navigation li{
+                padding: 4px;                        
+        }
+.navigation li a{
+                 text-decoration: none;
+        }
+.box{   
+    height: 50px;
+    width:auto;  
+    /* width:auto ; */
+    /*margin-top: 10px;*/
+    margin-left:auto; 
+    border-style: solid;
+    margin-top:auto;    
+    outline-style: solid;
+    outline-color: rgb(21, 41, 1);   
+}
+.column{
+    border: 5px;
+    width: auto;
+    height: auto;
+    /* text-align: center; */
+    /* float: */
+    justify-content: center;
+    padding: 10px; 
+
+}
+.container_courses{
+    border: 5px;
+    width: auto;
+    height: auto;
+}
+.container_learnmore{
+    width: 30%;
+    height: auto;
+    padding-left: 30%;
+
+}
+.button_learnmore{
+    background-color: purple;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.align_learnmore{
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex_learnmore{
+    display: flex;
+}
