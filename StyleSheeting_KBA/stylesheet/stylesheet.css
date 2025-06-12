@@ -15,22 +15,16 @@ body{
 .box{   
     height: 50px;
     width:auto;  
-    /* width:auto ; */
-    /*margin-top: 10px;*/
     margin-left:auto; 
     border-style: solid;
     margin-top:auto;    
     outline-style: solid;
     outline-color: rgb(21, 41, 1);   
 }
-.column{
-    border: 5px;
-    width: auto;
+.container_addcourse{
+    width: 33%;
     height: auto;
-    /* text-align: center; */
-    /* float: */
-    justify-content: center;
-    padding: 10px; 
+    padding-left: 33%;
 
 }
 .container_courses{
@@ -39,9 +33,9 @@ body{
     height: auto;
 }
 .container_learnmore{
-    width: 30%;
+    width: 33%;
     height: auto;
-    padding-left: 30%;
+    padding-left: 33%;
 
 }
 .button_learnmore{
@@ -57,4 +51,34 @@ body{
 }
 .flex_learnmore{
     display: flex;
+}
+.div1_contact{
+    padding:0%,33%;
+    text-align: center;
+    line-height: 20px;
+}
+.column_contact{
+    width:30%;
+            float: left;
+            padding: 10px;
+            text-align: center;
+            font-size: small;
+            line-height: 20px;
+}
+.container_update{
+    width: 33%;
+    height: auto;
+    /*background: #c7b4b4;*/
+    align-items: center;
+    padding-left: 34%;
+}
+.container_login{
+    width: 33%;
+    height: auto;
+    padding-left: 34%;
+}
+.container_signup{
+    width: 33%;
+    height: auto;
+    padding-left: 34%;
 }
