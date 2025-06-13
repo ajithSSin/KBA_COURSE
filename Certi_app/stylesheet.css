@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+}
+.navigation{
+     list-style-type: none; 
+     display: flex; 
+     justify-content: end;
+}
+.navigation li { 
+    padding-left: 5px;
+}
+.navigation li a{
+    text-decoration: none;
+}
+.div_front{
+    /* text-align: center; */
+    width: 33%;
+    height:auto;
+    padding-left: 33%;
+    justify-content: center;
+}
+.div_issue{
+    width: 20%;
+    height: auto;
+    padding-left: 21%;
+}
+.div_view{
+    border:2px;
+    border-style: solid;
+    
+   
+}

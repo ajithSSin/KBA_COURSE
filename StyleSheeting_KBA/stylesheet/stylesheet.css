@@ -25,7 +25,11 @@ body{
     width: 33%;
     height: auto;
     padding-left: 33%;
-
+    text-align: left;
+}
+.div_bgcolor{
+    background-color: rgb(84, 134, 2);
+    padding-left: 30%;
 }
 .container_courses{
     border: 5px;
@@ -47,7 +51,6 @@ body{
 .align_learnmore{
     display: flex;
     justify-content: space-between;
-
 }
 .flex_learnmore{
     display: flex;
@@ -59,8 +62,8 @@ body{
 }
 .column_contact{
     width:30%;
-            float: left;
-            padding: 10px;
+            float:left;
+            /* padding: 10px; */
             text-align: center;
             font-size: small;
             line-height: 20px;
