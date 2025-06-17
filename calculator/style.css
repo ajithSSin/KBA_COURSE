@@ -1,0 +1,42 @@
+/* .box {			
+    padding: 15px 20px;
+    font-size: 20px;
+	font-weight: bold;
+			border-radius: 5px;
+            border-color: black;
+            border: solid;
+    } */
+
+.outline{
+    margin: 4px;
+    width: 33%;
+    border-color: black;
+    border-style: solid;
+}
+ 
+button{
+			width: 24.0%;
+			padding: 20px 40px;
+			background-color: rgb(33, 213, 236);
+			color: white;
+			font-size: 20px;
+			font-weight: bold;
+			border: solid;
+			border-radius: 5px;
+		}
+
+.text{
+            margin: 2px;
+            color: rgb(8, 107, 110);
+          	width:300px;
+            padding-left: 2px;
+            padding-right: 4px;
+			border-radius: 5px;
+            border: solid;
+		}
+
+.flex_right{
+    display:flex;
+    justify-content: end;
+}
+
