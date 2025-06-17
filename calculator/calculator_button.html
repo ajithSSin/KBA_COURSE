@@ -4,47 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator using Button</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
-
+    .outline{
+        margin: 4px;
+        width: 50%;
+        border-color: black;
+        border-style: solid;
+        background-color: rgb(44, 43, 43);
+        outline-color: black;
+        outline: solid;
+        padding:5px 5px;
+        border-radius: 5px;
+    }
+    
+    .grid {
+        display: grid;
+    /* background-color: rgb(18, 18, 19); */
+        grid-template-columns: repeat(7, 1fr);  
+        gap: 10px;
+    /* text-align: center; */
+    }
+    button{
+                width: auto;
+                height: auto;
+                padding: 10px 20px;
+                background-color: rgb(155, 146, 146); 
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                border: solid;
+                border-radius: 5px;
+            } 
+    .button2{                
+                width:200px;
+                height: auto;               
+                padding: 2px 2px;
+            }
+    .text{
+                margin: 2px;                
+                width: 625px;
+                height: 50px;
+                color: rgb(8, 107, 110);
+                background-color:cadetblue;
+                padding-left: 2px;
+                padding-right: 4px;
+                border-radius: 5px;
+                border: solid;
+            }   
     </style>
 </head>
 
 <body>
-    <div class="outline">
-        <div class="flex_right">
-            <div class="text"></div>
-            <button>C</button>
+    <div class="outline">        
+        <div class="text"></div>
+
+        <div class="button2">
+            <button style="background-color: cyan;
+            border-color:cyan ;"> </button>
+            <button style="background-color: cyan;
+            border-color:cyan ;"> </button>
+            <button> </button>
+            <button> </button>
         </div>
-        
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-
-        <button>/</button>
-        <br>
-
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-
-        <button>*</button>
-        <br>
-
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-
-        <button>-</button>
-        <br>
-        <button>0</button>
-        <button>.</button>
-        <button>=</button>
-
-        <button>+</button>
-        <br>
+           
+        <div class="grid">
+            <button>RATE</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>&#8730;</button>
+            <button>%</button>
+            <button style="background-color: chocolate;">AC/C</button>
+            <button>-GST</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>x</button>
+            <button>&divide;</button>
+            <button>MRC</button>
+            <button>+GST</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button> </button>
+            <button>-</button>
+            <button>M-</button>
+            <button>MU</button>
+            <button>0</button>
+            <button>00</button>
+            <button>.</button>
+            <button>+</button>
+            <button>=</button>
+            <button>M+</button>
+        </div>        
     </div>
-     
-
 </body>
 </html>
