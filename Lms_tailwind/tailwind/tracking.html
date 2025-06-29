@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>    
+    
+</head>
+<body class="bg-blue-300">
+    <div>
+    <img src="./lms_logo.jpeg" alt="logo" 
+        class="w-[100%] h-auto">
+    </div>
+
+    <div class="flex">
+
+    <!-- side bar -->
+    
+        <div class="grid bg-blue-950 w-[25%] p-2 rounded-r-lg"> 
+            <div class="w-[90%]">
+                <label for="" 
+                        class="font-sans border text-2xl  
+                                    bg-blue-400 rounded-lg" >
+                    Welcome:<span class="">Admin</span>
+                </label>            
+            </div>
+            <div>
+                <nav class="bg-purple-400 mt-1 rounded-lg text-center items-center p-2">
+                    <ul>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/adminPage.html" 
+                                class="rounded text-xl hover:bg-blue-400 text-shadow-indigo-800 ">Dashboard</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="" 
+                                class="rounded hover:bg-blue-400 text-xl">Activities</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/explorebooks.html" 
+                                class=" rounded hover:bg-blue-400 text-xl">Explore Books</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="./addbookPage.html" 
+                                class=" rounded hover:bg-blue-400 text-xl">Add New Books</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/updateBook.html" 
+                                class=" rounded hover:bg-blue-400 text-xl">Update Books</a>
+                        </li> 
+                        <li class="outline rounded-lg mt-2">
+                            <a href="" 
+                                class=" rounded hover:bg-blue-400 text-xl">Remove Books</a>
+                        </li>                   
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/tracking.html" 
+                                class="  rounded hover:bg-blue-400 text-xl">Tracking</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> 
+            <div class="mt-auto text-center"> 
+            <button class="w-20 h-7 mt-2 bg-blue-600 hover:bg-blue-700 
+                                text-white font-semibold rounded-lg ">
+                    <a href="/tailwind/indexpage.html">Logout</a>
+            </button>
+        </div>
+        </div>
+        <!-- end of side bar -->
+
+        <!-- search area main container -->
+        <div class="ml-[10%] mt-[10%] w-[35%] ">
+            <div class="">
+                <input type="text "name="search" id="" placeholder="Enter Membership-id" required
+                        class="text-xl text-bold 
+                                outline rounded-l-lg 
+                                bg-stone-300">
+                <a class="text-2xl text-bold text-white rounded-r-lg
+                            bg-blue-400 hover:bg-green-600 " 
+                        href="/tailwind/trackingUser.html">Search</a>
+            </div>
+            <div class="mt-4">
+                <input type="text " name="search" id="" placeholder="Enter Book-id" required
+                        class="text-xl text-bold 
+                                outline rounded-l-lg
+                                bg-stone-300">
+                <a class="text-2xl text-bold text-white rounded-r-lg
+                            bg-blue-400 hover:bg-green-600" 
+                        href="/tailwind/trackingBook.html">Search</a>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

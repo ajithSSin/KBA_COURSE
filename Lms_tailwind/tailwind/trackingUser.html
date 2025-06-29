@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracking User</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>    
+</head>
+<body class="bg-blue-300" >
+    <div></div>
+    <div>
+    <img src="./lms_logo.jpeg" alt="logo" 
+        class="w-[100%] h-auto">
+    </div>
+
+    <div class="flex">
+        <div class="grid bg-blue-950 w-[25%] p-2 rounded-r-lg"> 
+            <div class="w-[90%]">
+                <label for="" 
+                        class="font-sans border text-2xl  
+                            bg-blue-400 rounded-lg" >
+                Welcome:<span class="">Admin</span></label>            
+            </div>
+            <div>
+            <nav class="bg-purple-400 mt-1 rounded-lg text-center items-center p-2">
+                <ul>
+                    <li class="outline rounded-lg mt-2">
+                        <a href="/tailwind/adminPage.html" 
+                                class="rounded 
+                                    text-xl text-shadow-indigo-800
+                                    hover:bg-blue-400">Dashboard</a>
+                    </li>
+                    <li class="outline rounded-lg mt-2">
+                        <a href="" 
+                            class="rounded 
+                                    hover:bg-blue-400 
+                                    text-xl">Activities</a>
+                    </li>
+                    <li class="outline rounded-lg mt-2">
+                        <a href="/tailwind/explorebooks.html" 
+                                class="rounded 
+                                hover:bg-blue-400 
+                                text-xl">Explore Books</a>
+                    </li>
+                    <li class="outline rounded-lg mt-2">
+                        <a href="./addbookPage.html" 
+                                class="rounded 
+                                    hover:bg-blue-400 
+                                    text-xl">Add New Books</a>
+                    </li>
+                    <li class="outline rounded-lg mt-2">
+                        <a href="/tailwind/updateBook.html" 
+                                class="rounded 
+                                    hover:bg-blue-400 
+                                    text-xl">Update Books</a>
+                    </li> 
+                    <li class="outline rounded-lg mt-2">
+                        <a href="" 
+                                class="rounded 
+                                    hover:bg-blue-400 
+                                    text-xl">Remove Books</a>
+                    </li>                   
+                    <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/tracking.html" 
+                                class="rounded 
+                                    hover:bg-blue-400 
+                                    text-xl">Tracking</a>
+                    </li>
+                </ul>
+            </nav>
+            </div> 
+            <div class="mt-auto text-center"> 
+                <button class="w-20 h-7 mt-2 
+                            bg-blue-600 
+                            hover:bg-blue-700 
+                            text-white font-semibold 
+                            rounded-lg ">
+                        <a href="/tailwind/indexpage.html">Logout</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="w-[auto] mt-1 ml-5">
+                <div class="bg-blue-400 
+                            font-serif text-xl text-center
+                            rounded-lg">
+                List of Books Member holds
+                </div>
+            
+                <table class="border mt-3 font-serif text-2xl ">
+                    <tr class="border">
+                        <th class="border">
+                            Sl.no
+                        </th>
+                        <th class="border">
+                           Book Id
+                        </th>
+                        <th class="border">
+                            Book Name
+                        </th>
+                        <th class="border">
+                            Author Name
+                        </th>
+                        <th class="border">
+                            Date of Issue
+                        </th>
+                        <th class="border">
+                            Date of Return
+                        </th>
+                        <th class="border">
+                            Status
+                        </th>
+                    </tr>
+
+                    <tr class="border font-mono text-blue-900 text-xl">
+                        <th class="border">
+                            1
+                        </th>
+                        <th class="border">
+                            001
+                        </th>
+                        <th class="border">
+                            The Guide
+                        </th>
+                        <th class="border">
+                            R.K.Narayan
+                        </th>
+                        <th class="border">
+                            27/06/2025
+                        </th>
+                        <th class="border">
+                            27/07/2025
+                        </th>
+                        <th class="border">
+                            Borrow
+                        </th>
+                    </tr>
+
+                    <tr class="border font-mono text-blue-900 text-xl">
+                        <th class="border">
+                            2
+                        </th>
+                        <th class="border">
+                            021
+                        </th>
+                        <th class="border">
+                            Train to Busan
+                        </th>
+                        <th class="border">
+                            Author Name
+                        </th>
+                        <th class="border">
+                            27/06/2025
+                        </th>
+                        <th class="border">
+                            27/07/2025
+                        </th>
+                        <th class="border">
+                            Borrow
+                       </th>
+                    </tr>
+
+                    <tr class="border font-mono text-blue-900 text-xl">
+                        <th class="border">
+                            3
+                        </th>
+                        <th class="border">
+                            -
+                        </th>
+                        <th class="border">
+                            -
+                        </th>
+                        <th class="border">
+                            -
+                        </th>
+                        <th class="border">
+                            -
+                        </th>
+                        <th class="border">
+                            -
+                        </th>
+                        <th class="border">
+                            -
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="w-58 ml-5
+                        bg-purple-400
+                        rounded shadow-xl/30
+                        grid">
+                <div class="rounded-lg 
+                            p-2 
+                            text-center ">
+                    <ul>
+                        <li class=" text-purple-900 text-2xl ">
+                                Member Info
+                        </li>
+                        <li class="outline rounded-lg mt-2 text-xl">
+                                Name
+                        </li>
+                        <li class="outline rounded-lg mt-2 text-xl">
+                            Member Id
+                        </li>
+                        <li class="outline rounded-lg mt-2 text-xl">
+                                Contact Number
+                        </li>
+                        <li class="outline rounded-lg mt-2 text-xl">
+                                Gender
+                        </li>                    
+                        <li class="outline rounded-lg mt-2 text-xl">
+                                Date of Joining
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+</body>
+</html>

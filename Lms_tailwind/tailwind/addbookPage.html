@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" >
+    <title>Add Book Page</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>    
+    
+</head>
+<body class="bg-blue-300">
+
+    <div class="border">
+        <img src="./lms_logo.jpeg" alt="logo" 
+            class="w-[100%] h-auto">
+    </div>
+    <!-- <div>
+        <a href="/tailwind/adminPage.html"
+        class="hover:bg-green-600">Back Home</a>
+    </div> -->
+
+    <div class="flex justify-between">
+            <!-- flex side bar and main container(form) -->
+        <div class="w-[25%]">
+            <div class="grid bg-blue-950  p-2 rounded-r-lg"> 
+                <div class="w-[]">
+                    <label for="" 
+                            class="font-sans border text-2xl  
+                                    bg-blue-400 rounded-lg" >
+                        Welcome:<span class="">Admin</span></label>            
+                </div>
+                <div>
+                <nav class="bg-purple-400 mt-1 rounded-lg text-center items-center p-2">
+                    <ul>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/adminPage.html" 
+                            class="rounded text-xl hover:bg-blue-400 text-shadow-indigo-800 ">Dashboard</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="" 
+                            class="rounded hover:bg-blue-400 text-xl">Activities</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/explorebooks.html" 
+                                class=" rounded hover:bg-blue-400 text-xl">Explore Books</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="./addbookPage.html" 
+                                class=" rounded hover:bg-blue-400 text-xl">Add New Books</a>
+                        </li>
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/updateBook.html" 
+                                class=" rounded hover:bg-blue-400 text-xl">Update Books</a>
+                        </li> 
+                        <li class="outline rounded-lg mt-2">
+                            <a href="" 
+                                class=" rounded hover:bg-blue-400 text-xl">Remove Books</a>
+                        </li>                   
+                        <li class="outline rounded-lg mt-2">
+                            <a href="/tailwind/tracking.html" 
+                                class="  rounded hover:bg-blue-400 text-xl">Tracking</a>
+                        </li>
+                    </ul>
+                </nav>
+                </div> 
+                <div class="mt-auto text-center"> 
+                    <button class="w-20 h-7 mt-2 bg-blue-600 hover:bg-blue-700 
+                                text-white font-semibold rounded-lg ">
+                        Logout
+                    </button>
+                </div>            
+            </div> 
+            
+            <!-- <div>
+            </div> -->
+        </div>
+
+        <!-- form -->
+        <div class="mr-[20%] mt-5">   
+                    <!-- border-color: blue; border-style: solid; -->
+            <h4 class="text-2xl font-bold font-mono text-center text-indigo-500
+                        rounded-lg shadow-xl/10 
+                        pl-1 "> 
+                        NEW BOOK DETAILS </h4>   
+            
+            <form action="">
+                <div class="border rounded-lg w-119 mt-2 p-2 h-110
+                            bg-green-200 shadow-xl/30">
+                    <div class="flex w-150">
+                        <div class="">
+                            <p class="p-1 w-50 outline rounded-lg">Book Name:</p>
+                        </div>
+                        <div>
+                            <input type="text" id="" name="" placeholder="Book title" required
+                                    class="ml-5 p-1 w-60 outline rounded-lg">
+                        </div>
+                    </div>
+                    <div class="flex mt-2 w-150">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">Book-Id:</p>
+                        </div>
+                        <div>
+                            <input type="text" id="" name="" placeholder="Book-ID" required
+                                    class="ml-5 p-1 w-60 outline rounded-lg">
+                        </div>
+                    </div>   
+                    <div class="flex mt-2">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">Author:</p> 
+                        </div>
+                        <div>
+                            <input type="text" id="" name="" placeholder="Author name" required
+                                            class="ml-5 p-1 w-60 outline rounded-lg"> 
+                        </div>
+                    </div>    
+                    <div class="flex mt-2 w-150">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">Genre:</p> 
+                        </div>
+                        <div>
+                            <select name="" id=""
+                                class="ml-5 p-1 w-60 outline rounded-lg">
+
+                                <option value="thriller"selected>Thriller</option>           
+                                <option value="fiction" >Fiction</option>
+                                <option value="non-fiction">Non-Fiction</option>
+                                <option value="drama">Drama</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex mt-2 w-150">
+                        <div> 
+                            <p class="p-1 w-50 outline rounded-lg">Publisher:</p>
+                        </div>
+                        <div> 
+                            <input type="text" id="" name="" placeholder="Publisher name"
+                                        class="ml-5 p-1 w-60 outline rounded-lg">
+                        </div>
+                    </div>
+                    <div class="flex mt-2">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">
+                            Publication Year:</p>
+                        </div>
+                        <div>
+                            <input type="date" id="" name="" placeholder=""
+                                    class="ml-5 p-1 w-60 outline rounded-lg">
+                        </div>
+                    </div>
+                    <div class="flex mt-2">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">Description:</p>
+                        </div>
+                        <div>
+                            <textarea id="" name="" rows="3" cols="15" 
+                                placeholder="Brief description of the book"
+                                class="ml-5 p-1 w-60 outline rounded-lg">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="flex mt-2">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">
+                                        Available:</p>
+                        </div>
+                        <div>
+                            <input type="number" name="0" id="" size="" 
+                                    class="ml-5 p-1 w-60 outline rounded-lg">
+                        </div>
+                    </div>
+                    <div class="flex mt-2">
+                        <div>
+                            <p class="p-1 w-50 outline rounded-lg">Upload Coverpage:</p>
+
+                        </div>
+                        <div>
+                            <input type="file" name="" id="" 
+                                class="ml-5 p-1 w-60 outline rounded-lg 
+                                hover:bg-blue-400 hover:text-white">
+                        </div>
+                    </div>
+                </div>                    
+            </form>
+        
+            <div class="text-md font-bold font-mono text-center text-indigo-800
+                        rounded-lg shadow-xl/10 
+                        ml-0 mt-2 pb-5">
+                <input type="submit" value="Add Book"
+                        class="w-30 bg-blue-300 outline rounded-lg h-5 mt-2 ">
+                            
+                <input type="reset" value="Clear Form" 
+                        class="w-30 bg-blue-300 outline rounded-lg h-5 mt-2 ">    
+            </div>
+        </div> 
+    </div>
+    
+</body>
+</html>
